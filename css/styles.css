@@ -36,6 +36,10 @@ body{
     margin-right: auto;
 }
 /* ========HEADER========= */
+.header-top{
+    position: absolute;
+    width: 100vw;
+}
 .logo{
     font-style: 15px;
     color: var(--color-font-white);
@@ -111,5 +115,58 @@ body{
 .hero{
     padding-top: 240px;
     padding-bottom: 270px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000000;
+    background-image: url("../images/bg.jpg");
+
 }
 /* ========/HERO========= */
+/* ======================WORK */
+.work-title{
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 1.22;
+    text-align: center;
+    color:var(--color-font-dark);
+}
+.work-text{
+    font-size: 12px;
+    line-height: 2.5;
+    text-align: center;
+    color: var(--color-font-text);
+}
+.work-btn{
+    font-size: 23px;
+    line-height: 1.65;
+    text-align: center;
+    color: var(--color-font-dark);
+    background-color: inherit;
+    border: none;
+    
+}
+.active{
+    color: var(--color-accent);
+}
+.work-subtitle{
+    font-size: 19px;
+    line-height: 1.47;
+    color: var(--color-font-dark)
+}
+.work-stages{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--color-font-text);
+}
+.work-contact-btn{
+    font-size: 15px;
+    line-height: 2;
+    color: var(--color-font-white);
+    display: inline-block;
+    min-width: 174px;
+    min-height: 60px;
+    background-color: var(--color-accent);
+    padding: 15px 50px;
+    border-radius: 4px;
+}
